@@ -19,8 +19,8 @@ export const Main = () => {
     return (
         <div> 
              {clubs?.map((el) =>{
-                <ClubCard el={el} />
-             })}
+                <ClubCard key ={el.id} el={el} />
+})}
         </div>
     )
 }
